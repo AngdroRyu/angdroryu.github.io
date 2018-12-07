@@ -34,6 +34,7 @@ nav li {
 }
 img{
 	float: right;	
+	margin: 15px;
 }
 main {
 	margin: auto;
