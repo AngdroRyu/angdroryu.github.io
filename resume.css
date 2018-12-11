@@ -86,13 +86,20 @@ p {
 	
 }
 @media only screen and (max-width: 768px){
+	img{
+		display:none;	
+	}
 	#Profile1{
 		display:none;
+	}
+	#Profile2{
+		display:none;	
 	}
 	h1{
 		font-size: 1.3em;
 	}
 	footer{
 		padding: 0;
+		margin: 0;
 	}
 }
