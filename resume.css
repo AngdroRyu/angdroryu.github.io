@@ -1,5 +1,6 @@
 body {
 	background-color: #ffffff;
+	background-image: url(images/dcbackground.jpg);
 	font-family: Veranda, Arial, san-serif;
 	color: #000000;
 	
@@ -33,7 +34,6 @@ nav li {
 	display: inline;
 }
 main {
-	background-image: url(images/dcbackground.jpg);
 	margin: auto;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -56,7 +56,7 @@ h1 {
 }
 
 h2{
- margin: auto;
+ 	margin: auto;
 }
 
 h2 ul {
@@ -81,4 +81,18 @@ p {
 	height:245px;
 	width:200px;
 	margin:15px 15px 15px 15px;
+}
+@media only screen and (max-width: 1024px){
+	
+}
+@media only screen and (max-width: 768px){
+	#Profile1{
+		display:none;
+	}
+	h1{
+		font-size: 1.3em;
+	}
+	footer{
+		padding: 0;
+	}
 }
