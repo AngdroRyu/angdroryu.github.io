@@ -3,28 +3,24 @@ body {
 	background-image: url(images/dcbackground.jpg);
 	font-family: Veranda, Arial, san-serif;
 	color: #000000;
-	
 }
-a{
+a {
 	text-decoration: none;
 	color: #000000;
 }
 nav {
 	background-color: #ffffff;
 	word-spacing: auto;
-	
 }
 nav a {
 	color: #000000;
 	font-size: large;
 	padding-right: 10px;
 	padding-left: 10px;
-	
 }
-nav li.active{
+nav li.active {
 	text-decoration: underline;
 }
-
 nav ul {
 	list-style-type: none;
 	padding-right: 10px;
@@ -41,24 +37,21 @@ main {
 	padding-right: 20px;
 	max-width: 75%;
 }
-header{
+header {
 	background-color: white;
 }
-footer{
+footer {
 	text-align: center;
 	clear: both;
 	border-top: 1px solid orange
 }
-
 h1 {
 	padding: 5px;
 	background-color: #f4b642;
 }
-
-h2{
- 	margin: auto;
+h2 {
+	margin: auto;
 }
-
 h2 ul {
 	list-style-type: none;
 	line-height: 1.5;
@@ -67,62 +60,54 @@ p {
 	line-height: 2.5;
 	margin: auto;
 }
-#icon{
+#icon {
 	background-image: url(images/iconkey.jpg);
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 400px;
 }
-#profile1{
+#profile1 {
 	background-image: url(images/selfimage.jpg);
 	background-repeat: no-repeat;
 	float: right;
-	height:245px;
-	width:200px;
-	margin:15px 15px 15px 15px;
+	height: 245px;
+	width: 200px;
+	margin: 15px 15px 15px 15px;
 }
-#indextext ul{
+#indextext ul {
 	font-size: 30px;
 	list-style-type: none;
 	margin: auto;
 	float: left;
 }
-
-	
-#fluffydog{
+#fluffydog {
 	background-image: url(images/fluffdogo.jpg);
 	background-repeat: no-repeat;
 	float: right;
-	height:180px;
-	width:240px;
-	margin:15px 15px 15px 15px;
+	height: 180px;
+	width: 240px;
+	margin: 15px 15px 15px 15px;
 }
-@media only screen and (max-width: 1024px){
-	
-}
-@media only screen and (max-width: 768px){
-	#indextext ul{
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 768px) {
+	#indextext ul {
 		font-size: 1em;
-		margin:0;
-		padding:0;
+		margin: 0;
+		padding: 0;
 	}
-	p{
+	p {
 		font-size: 1em;
 	}
-	img{
-		hspace: 20px;
-		display:none;	
+	#profile1 {
+		display: none;
 	}
-	#profile1{
-		display:none;
+	#fluffydog {
+		display: none;
 	}
-	#fluffydog{
-		display:none;	
-	}
-	h1{
+	h1 {
 		font-size: 1.3em;
 	}
-	footer{
+	footer {
 		padding: 0;
 		margin: 0;
 	}
