@@ -60,6 +60,9 @@ p {
 	line-height: 2.5;
 	margin: auto;
 }
+.profilepic{
+	float: left;	
+}
 #icon {
 	background-image: url(images/iconkey.jpg);
 	background-repeat: no-repeat;
