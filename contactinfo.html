@@ -31,9 +31,6 @@
 			<li><img src="https://img.icons8.com/color/25/000000/discord-logo.png"><b>Discord: AngdroRyu#4139</b></li>
 		</ul>
 		<div id="fluffydog"></div>
-		  <button class="btn1">Fade out</button>
-  		  <button class="btn2">Fade in</button>
-		  <button class="btn3">Fade out and in</button>
 	</main>
 	<footer>
 		<div>
@@ -50,15 +47,11 @@
 	 $(document).ready(function() {
   	 $("#fluffydog").hide().fadeIn(3000);
 
- 	 $(".btn1").click(function() {
-   	 $('#fluffydog').fadeOut(2000);
-  	});
-  	 $(".btn2").click(function() {
-   	 $('#fluffydog').fadeIn(3000);
-  	});
-	  $(".btn3").click(function() {
-   	 $('#fluffydog').fadeOut(2000).fadeIn(3000);
-  	});
+ 	 $('#fluffydog').mouseenter(function() {
+   	 $('#fluffydog').fadeOut(2000);});
+	 
+	 $('#fluffydog').mouseleave(function() {
+   	 $('#fluffydog').fadeIn(2000);});
 
 	});
 	</script>
