@@ -93,8 +93,15 @@ p {
 	width: 240px;
 	margin: 15px 15px 15px 15px;
 }
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+	main{
+		max-width: 75%;
+	}
+}
 @media only screen and (max-width: 768px) {
+	main{
+		max-width: 75%;
+	}
 	#indextext ul {
 		font-size: 1em;
 		margin: 0;
