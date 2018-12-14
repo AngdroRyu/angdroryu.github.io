@@ -101,6 +101,9 @@ p {
 	#profile1 {
 		display: none;
 	}
+	.profilepic{
+		display: none;	
+	}
 	#fluffydog {
 		display: none;
 	}
