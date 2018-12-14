@@ -33,6 +33,7 @@
 		<div id="fluffydog"></div>
 		  <button class="btn1">Fade out</button>
   		  <button class="btn2">Fade in</button>
+		  <button class="btn2">Fade out and in</button>
 	</main>
 	<footer>
 		<div>
@@ -47,13 +48,16 @@
 	</script>
 	<script>
 	 $(document).ready(function() {
-  	 $('.fluffydog').hide().fadeIn(3000);
+  	 $("#fluffydog").hide().fadeIn(3000);
 
  	 $(".btn1").click(function() {
-   	 $(".fluffydog").fadeOut(2000);
+   	 $("#fluffydog").fadeOut(2000);
   	});
   	 $(".btn2").click(function() {
-   	 $(".fluffydog").fadeIn(1000);
+   	 $("#fluffydog").fadeIn(3000);
+  	});
+	  $(".btn3").click(function() {
+   	 $("#fluffydog").fadeOut(2000).fadeIn(3000);
   	});
 
 	});
