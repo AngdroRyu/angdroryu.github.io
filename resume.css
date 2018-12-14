@@ -101,6 +101,13 @@ p {
 	
 }
 @media only screen and (max-width: 768px){
+	#indextext ul{
+		font-size: 1em;
+		margin:0;
+		padding:0;
+	}
+	p{
+		font-size: 1em;
 	img{
 		display:none;	
 	}
