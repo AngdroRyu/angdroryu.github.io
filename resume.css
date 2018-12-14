@@ -67,13 +67,13 @@ p {
 	line-height: 2.5;
 	margin: auto;
 }
-#Icon{
+#icon{
 	background-image: url(images/iconkey.jpg);
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 400px;
 }
-#Profile1{
+#profile1{
 	background-image: url(images/selfimage.jpg);
 	background-repeat: no-repeat;
 	float: right;
@@ -81,16 +81,9 @@ p {
 	width:200px;
 	margin:15px 15px 15px 15px;
 }
-#Profile2{
-	background-image: url(images/selfimage2.jpg);
-	background-repeat: no-repeat;
-	float: right;
-	height:280px;
-	width:200px;
-	margin:15px 15px 15px 15px;
-}
+
 	
-#Fluffydog{
+#fluffydog{
 	background-image: url(images/fluffdogo.jpg);
 	background-repeat: no-repeat;
 	float: right;
@@ -105,10 +98,10 @@ p {
 	img{
 		display:none;	
 	}
-	#Profile1{
+	#profile1{
 		display:none;
 	}
-	#Profile2{
+	#fluffydog{
 		display:none;	
 	}
 	h1{
