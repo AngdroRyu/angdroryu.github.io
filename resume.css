@@ -111,6 +111,9 @@ p {
 	p {
 		font-size: 1em;
 	}
+	h2 ul{
+	line-height: 1;	
+	}
 	#profile1 {
 		display: none;
 	}
