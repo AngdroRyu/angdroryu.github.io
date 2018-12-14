@@ -84,7 +84,8 @@ p {
 	float: left;
 }
 #contact ul{
-	float: left	
+	float: left;
+	list-style-type: none;
 }
 #fluffydog {
 	background-image: url(images/fluffdogo.jpg);
