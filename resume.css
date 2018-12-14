@@ -67,6 +67,9 @@ p {
 	line-height: 2.5;
 	margin: auto;
 }
+button{
+	font-size:20px;	
+}
 #icon{
 	background-image: url(images/iconkey.jpg);
 	background-repeat: no-repeat;
@@ -82,7 +85,8 @@ p {
 	margin:15px 15px 15px 15px;
 }
 #indextext{
-	text-decoration: none;
+	font-size: 20px;
+	list-sytle-type: none;
 	margin: inherit;
 	float: left;
 }
