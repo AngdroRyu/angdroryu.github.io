@@ -109,6 +109,7 @@ p {
 	p{
 		font-size: 1em;
 	img{
+		hspace: 20px;
 		display:none;	
 	}
 	#profile1{
