@@ -84,10 +84,10 @@ button{
 	width:200px;
 	margin:15px 15px 15px 15px;
 }
-#indextext{
-	font-size: 20px;
+#indextext ul{
+	font-size: 30px;
 	list-sytle-type: none;
-	margin: inherit;
+	margin: auto;
 	float: left;
 }
 
