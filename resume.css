@@ -78,6 +78,7 @@ p {
 	margin: 15px 15px 15px 15px;
 }
 #indextext ul {
+	display: inline-block;
 	font-size: 1.875em;
 	list-style-type: none;
 	margin: auto;
