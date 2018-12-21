@@ -71,6 +71,7 @@ p {
 #indextext ul {
 	font-size: 1.8em;
 	list-style-type: none;
+	margin: auto;
 	float: left;
 }
 #contact ul{
