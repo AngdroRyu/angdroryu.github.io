@@ -63,36 +63,22 @@ p {
 .profilepic{
 	float: right;	
 }
-#icon {
-	background-image: url(images/iconkey.jpg);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 400px;
-}
-#profile1 {
-	background-image: url(images/selfimage.jpg);
-	background-repeat: no-repeat;
+
+.profile1 {
 	float: right;
-	height: 245px;
-	width: 200px;
 	margin: 15px 15px 15px 15px;
 }
 #indextext ul {
 	font-size: 1.8em;
 	list-style-type: none;
-	margin: auto
 	float: left;
 }
 #contact ul{
 	float: left;
 	list-style-type: none;
 }
-#fluffydog {
-	background-image: url(images/fluffdogo.jpg);
+.fluffydog {
 	float:right;
-	background-repeat: no-repeat;
-	height: 180px;
-	width: 240px;
 	margin: 15px 15px 15px 15px;
 }
 @media only screen and (max-width: 1024px) {
@@ -115,13 +101,13 @@ p {
 	h2 ul{
 	line-height: 1;	
 	}
-	#profile1 {
+	.profile1 {
 		display: none;
 	}
 	.profilepic{
 		display: none;	
 	}
-	#fluffydog {
+	.fluffydog {
 		display: none;
 	}
 	h1 {
