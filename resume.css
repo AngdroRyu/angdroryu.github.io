@@ -78,9 +78,9 @@ p {
 	margin: 15px 15px 15px 15px;
 }
 #indextext ul {
-	font-size: 1.875em;
+	font-size: 1.8em;
 	list-style-type: none;
-	margin-left: 0;
+	margin: auto
 	float: left;
 }
 #contact ul{
